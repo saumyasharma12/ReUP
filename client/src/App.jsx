@@ -4,6 +4,8 @@ import Mininav from './Components/Mininav/Mininav';
 import Banner from './Components/Banner/Banner';
 import Grid from './Components/Grid/Grid';
 import Footer from './Components/Footer/Footer';
+import Work from './Components/Work/Work';
+import WhyUs from './Components/WhyUs/WhyUs';
 const App = () => {
   return (
     <div>
@@ -11,6 +13,8 @@ const App = () => {
       <Mininav/>
       <Banner/>
       <Grid/>
+      <WhyUs/>
+      <Work/>
       <Footer/>
     </div>
   )
